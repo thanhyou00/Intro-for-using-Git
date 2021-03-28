@@ -1,0 +1,16 @@
+  Các bước tạo và đẩy code lên github
+B1: Tải git https://git-scm.com/downloads
+< Khi nhấn phải chuột ra màn hình hiển thị Git bash here và Git Gui here là đã cài thành công >
+B2: Mở Git bash here và gõ lệnh để thiết lập địa chỉ mail và username github của bạn theo đúng tài khoản bạn đã đăng ký trước đó .
+$ git config --global user.name "your-username"
+$ git config --global user.email "your_mail@gmail.com"
+B3: Mở trang Github của bạn lên và tạo New Repositories , đặt tên cho nó.
+B4: Copy link của Repositories vừa tạo 
+B5: Quay lại máy tính của bạn , nhấn phải chuột chọn Git bash here và gõ lệnh
+$ git clone https://your-link
+<Sẽ hiển thị ra 1 file folder mới - nới để bạn up code lên github>
+B6: Thêm file code bạn muốn up lên github vào file  folder mới và gõ lệnh
+$ git add .
+$ git commit -m "first commit"
+$ git push
+ --Vậy là đã hoàn thành-- Gud luck !
