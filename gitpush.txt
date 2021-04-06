@@ -13,4 +13,5 @@ B6: Thêm file code bạn muốn up lên github vào file  folder mới và gõ 
 $ git add .
 $ git commit -m "first commit"
 $ git push
+*Note: Nếu bạn sửa file trực tiếp trên github thì chỉ cần git pull lại là những thay đổi trên file sẽ được update về local.
  --Vậy là đã hoàn thành-- Gud luck !
