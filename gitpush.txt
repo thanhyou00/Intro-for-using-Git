@@ -1,4 +1,4 @@
-  Các bước tạo và đẩy code lên github
+(VN)  Các bước tạo và đẩy code lên github
 B1: Tải git https://git-scm.com/downloads
 < Khi nhấn phải chuột ra màn hình hiển thị Git bash here và Git Gui here là đã cài thành công >
 B2: Mở Git bash here và gõ lệnh để thiết lập địa chỉ mail và username github của bạn theo đúng tài khoản bạn đã đăng ký trước đó .
@@ -13,5 +13,26 @@ B6: Thêm file code bạn muốn up lên github vào file  folder mới và gõ 
 $ git add .
 $ git commit -m "first commit"
 $ git push
-*Note: Nếu bạn sửa file trực tiếp trên github thì chỉ cần git pull lại là những thay đổi trên file sẽ được update về local.
- --Vậy là đã hoàn thành-- Gud luck !
+*Note: Nếu bạn sửa file trực tiếp trên github thì chỉ cần 'git pull' lại là những thay đổi trên file sẽ được update về local.
+ --Vậy là đã hoàn thành-- Good luck !
+
+======================================
+
+(ENG)  Steps to create and push code to github
+Step 1 : Download git https://git-scm.com/downloads
+< When you right-click the screen showing Git bash here and Git Gui here, it is successfully installed >
+Step 2 : Open Git bash here and type the command to set up your github email address and username according to the account you registered before
+$ git config --global user.name "your-username"
+$ git config --global user.email "your_mail@gmail.com"
+Step 3 : Open your Github page and create New Repositories , give it a name
+Step 4 : Copy the link of the Repositories just created
+Step 5 : Go back to your computer, right click and select Git bash here and type
+$ git clone https://your-link
+<Will display a new folder file - a place for you to upload code to github>
+Step 6 : Add the code file you want to upload to github to the new folder file and type the command
+$ git add .
+$ git commit -m "first commit"
+$ git push
+*Note: If you edit the file directly on github, just 'git pull' back and the changes on the file will be updated locally.
+--So it's done-- Good luck !
+
